@@ -1,0 +1,1666 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.4f1 (cb45f9cae8b7) revision 13321721'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'pt' Physical Memory: 3891 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker12
+-projectPath
+C:/Users/dougl/Documents/Meus projetos/Unity/2D/First project (Space Shooter)
+-logFile
+Logs/AssetImportWorker12.log
+-srvPort
+64409
+Successfully changed project path to: C:/Users/dougl/Documents/Meus projetos/Unity/2D/First project (Space Shooter)
+C:/Users/dougl/Documents/Meus projetos/Unity/2D/First project (Space Shooter)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 264.63 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/dougl/Documents/Meus projetos/Unity/2D/First project (Space Shooter)/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 10.0]
+    Renderer: Intel(R) HD Graphics (ID=0x46)
+    Vendor:   Intel
+    VRAM:     128 MB
+    Driver:   8.15.10.2900
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56564
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.022944 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 248.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.763 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1764ms)
+		BeginReloadAssembly (220ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1202ms)
+			LoadAssemblies (210ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (281ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (706ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (248ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (310ms)
+				ProcessInitializeOnLoadMethodAttributes (123ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.032620 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\dougl\Documents\Meus projetos\Unity\2D\First project (Space Shooter)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\dougl\Documents\Meus projetos\Unity\2D\First project (Space Shooter)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 225.80 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.220 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6222ms)
+		BeginReloadAssembly (420ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (108ms)
+		EndReloadAssembly (5263ms)
+			LoadAssemblies (1970ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1098ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (161ms)
+			SetupLoadedEditorAssemblies (1897ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (226ms)
+				BeforeProcessingInitializeOnLoad (287ms)
+				ProcessInitializeOnLoadAttributes (1020ms)
+				ProcessInitializeOnLoadMethodAttributes (322ms)
+				AfterProcessingInitializeOnLoad (27ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 1.98 seconds
+Refreshing native plugins compatible for Editor in 1.77 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4056 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (222.6 KB). Loaded Objects now: 4504.
+Memory consumption went from 152.0 MB to 151.8 MB.
+Total: 188.976100 ms (FindLiveObjects: 1.314200 ms CreateObjectMapping: 0.531100 ms MarkObjects: 186.702600 ms  DeleteObjects: 0.424800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5041.422361 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c23e514d24f6b65fe96946cd87fc526') in 0.147461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2730.942438 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00000.png
+  artifactKey: Guid(1d67ba02a3ae743ed81501156742929f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00000.png using Guid(1d67ba02a3ae743ed81501156742929f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7bf9e5c03e944f70dde6e103c77d743') in 11.185016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002363 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00041.png
+  artifactKey: Guid(93193b36e4c8c42609c1572375516c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00041.png using Guid(93193b36e4c8c42609c1572375516c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15fd1f4b49f5aa8382c81cbd7d4d0ac4') in 0.233243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00018.png
+  artifactKey: Guid(0dca7a237738f409aaf402ba9104aef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00018.png using Guid(0dca7a237738f409aaf402ba9104aef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a54d5960aae253896f49704ff3ff6b') in 0.323245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00014.png
+  artifactKey: Guid(7adc0065acd8041d49a7a3e113b132be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00014.png using Guid(7adc0065acd8041d49a7a3e113b132be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57be01ba198c388ccb7feec53f2ad2a7') in 0.208475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00022.png
+  artifactKey: Guid(c6d32c2b11a7048309fe222249dca004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00022.png using Guid(c6d32c2b11a7048309fe222249dca004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4ed45610e8eb364bd3e5ee2ac95feeb') in 0.334455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00025.png
+  artifactKey: Guid(5836ff21d80674e5e842348ac351898c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00025.png using Guid(5836ff21d80674e5e842348ac351898c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff4fbd234ba345f2460836174dfebf58') in 0.225541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00048.png
+  artifactKey: Guid(27bc50870b57f41b08916ba8fbf07ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00048.png using Guid(27bc50870b57f41b08916ba8fbf07ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31a4fa650053f607b4b5f56621affd87') in 0.204942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00004.png
+  artifactKey: Guid(3a4a702ebbcd8420192b42dca73ca87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00004.png using Guid(3a4a702ebbcd8420192b42dca73ca87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '494d24c1088704fbbd7ab3ce22e98876') in 0.217215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00055.png
+  artifactKey: Guid(dcad79d3609c74ffbad9eef1f8bd998e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00055.png using Guid(dcad79d3609c74ffbad9eef1f8bd998e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ddfcb5f1596ed0e20f42136cc2fa23') in 0.162192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00006.png
+  artifactKey: Guid(d89c5abd9258140a3ac8d6f4a5f79ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00006.png using Guid(d89c5abd9258140a3ac8d6f4a5f79ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61f7a688531bc423e415db88a7ee9be2') in 0.337994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00010.png
+  artifactKey: Guid(7f5a7561fb7104302b9c43f14dc5db21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00010.png using Guid(7f5a7561fb7104302b9c43f14dc5db21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1555837526df89b54798b540583ee8fe') in 0.126103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00121.png
+  artifactKey: Guid(18eba4bdb099348efbfb7f64507bd501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00121.png using Guid(18eba4bdb099348efbfb7f64507bd501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f07efff6d0c18219f8e0dfa7506bafa') in 0.118421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00020.png
+  artifactKey: Guid(d9e99148b15674c8fafeea7daa557973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00020.png using Guid(d9e99148b15674c8fafeea7daa557973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d1e2486372168f72afc8ae70ec57e7d') in 0.318035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00091.png
+  artifactKey: Guid(4a8b888222c304b78a95bc2d572970be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00091.png using Guid(4a8b888222c304b78a95bc2d572970be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c44c6f27c33b0f6a53abb0d29c4e066a') in 0.247933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00139.png
+  artifactKey: Guid(b28655d34842b4fffbb045a2e859872e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00139.png using Guid(b28655d34842b4fffbb045a2e859872e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e7b81eb96fb6e530e4ad1eb180d8c25') in 0.267297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00155.png
+  artifactKey: Guid(bc0b4e46959244221b24de8833420178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00155.png using Guid(bc0b4e46959244221b24de8833420178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba2240da794577d11866be199a8f7955') in 0.179887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00034.png
+  artifactKey: Guid(483587f42268942ed88360818f5cca79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00034.png using Guid(483587f42268942ed88360818f5cca79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd072bc24e5db96e629b6ad4eaed4bc2') in 0.202322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00066.png
+  artifactKey: Guid(ae91804d7ad3d40de8d510df026adc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00066.png using Guid(ae91804d7ad3d40de8d510df026adc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ee621444f59a3b77eb83ab6ef4d23e') in 0.284587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00140.png
+  artifactKey: Guid(e6a7dd5db2aa84619ada18ec501a1491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00140.png using Guid(e6a7dd5db2aa84619ada18ec501a1491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5761b6fde6e711615dd519728b2be94c') in 0.136372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00007.png
+  artifactKey: Guid(3c7b96fb5e28645ff84feb04f135489a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00007.png using Guid(3c7b96fb5e28645ff84feb04f135489a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7afa274aae4999a004d2dcae840cd023') in 0.112879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00151.png
+  artifactKey: Guid(9af57da9ef0c745f4be8c14339aa9ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00151.png using Guid(9af57da9ef0c745f4be8c14339aa9ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed97022f4c7f184706d6070254af9b05') in 0.167726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00118.png
+  artifactKey: Guid(036ba198b1f834a068020525f07bcc76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00118.png using Guid(036ba198b1f834a068020525f07bcc76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b78316e981d8e63e0f97827f65c6352') in 0.136266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00068.png
+  artifactKey: Guid(9a9ea14cca8d848faa91e6d2c8c049e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00068.png using Guid(9a9ea14cca8d848faa91e6d2c8c049e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c69713c04f9a1adc120b2305f30341') in 0.138268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00069.png
+  artifactKey: Guid(1d8e43943961b437fbb96acb200e2d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00069.png using Guid(1d8e43943961b437fbb96acb200e2d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b08f7f64a727dd313ae8b6a0912ff73') in 0.193514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00059.png
+  artifactKey: Guid(e0681e243a8e943fa873f297eff0504e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00059.png using Guid(e0681e243a8e943fa873f297eff0504e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '968eb6409a53c0540e6407c329d51789') in 0.253730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00080.png
+  artifactKey: Guid(950ecadb647534011a6b8632a848776b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00080.png using Guid(950ecadb647534011a6b8632a848776b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb38e921090d75aff1d31df8599121f') in 0.179552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00053.png
+  artifactKey: Guid(985538c352b104d60b58f5a4aaeaf6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00053.png using Guid(985538c352b104d60b58f5a4aaeaf6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a46dbff8ba6d356114d8108e9a426755') in 0.190542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00067.png
+  artifactKey: Guid(088651ed39c9146ebbad76cba215e2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00067.png using Guid(088651ed39c9146ebbad76cba215e2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '336ff6b718852378e9ac9a84fce4a4d7') in 0.190801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00154.png
+  artifactKey: Guid(4f919d68f9ccb46b99ea3df7d2d8ed5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00154.png using Guid(4f919d68f9ccb46b99ea3df7d2d8ed5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e055b83d194b0c0facce1e948eeae313') in 0.280391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00110.png
+  artifactKey: Guid(b52f59f3b583a4f819465ee035e0a09f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00110.png using Guid(b52f59f3b583a4f819465ee035e0a09f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e2e1873579a7b8b8f367cbba82150a6') in 0.338594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00135.png
+  artifactKey: Guid(8ec8251880a5e493ab0ebe604524b72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00135.png using Guid(8ec8251880a5e493ab0ebe604524b72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '968db965b264846fb5274d7eb20d7612') in 0.277858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00074.png
+  artifactKey: Guid(665d3058c31a24bdbaa1a9fb4fef0694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00074.png using Guid(665d3058c31a24bdbaa1a9fb4fef0694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60942a5ab5f6ec79bbb778d625337884') in 0.185792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00064.png
+  artifactKey: Guid(a9c0db423597849349da1f6f058d57d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00064.png using Guid(a9c0db423597849349da1f6f058d57d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba98a25bbcbff55fc24b77aca531c43') in 0.271446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00073.png
+  artifactKey: Guid(4b2cbc006500d462c9863be57d6dd82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00073.png using Guid(4b2cbc006500d462c9863be57d6dd82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c85b33dacc38d967c18f170091122ba2') in 0.255747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00097.png
+  artifactKey: Guid(8047be65cf8fd4ed598297afc737f852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00097.png using Guid(8047be65cf8fd4ed598297afc737f852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f314e2f1498e18019e7bcffb5a6313f') in 0.154092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00146.png
+  artifactKey: Guid(9f5baae5bc65c493aad490c91754942f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00146.png using Guid(9f5baae5bc65c493aad490c91754942f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd5134f1d1cad1ee854f3a6a19056be7') in 0.156894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00134.png
+  artifactKey: Guid(99aba842c93e34b81905d22146bb0a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00134.png using Guid(99aba842c93e34b81905d22146bb0a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b0cc6e91d5696fa753310d7d4fc60a') in 0.173271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00137.png
+  artifactKey: Guid(1ca29a2f1332c40b69514ef995190081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00137.png using Guid(1ca29a2f1332c40b69514ef995190081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c7218549aa6b6e2025cfcc1055896cb') in 0.226269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00084.png
+  artifactKey: Guid(4e89deb3fd9ec423db678b5eeb9dad3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00084.png using Guid(4e89deb3fd9ec423db678b5eeb9dad3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28f4248f3edde0aff6507424adba8365') in 0.134247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00038.png
+  artifactKey: Guid(1e507e951415d43b7b1d7c35b1cca3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00038.png using Guid(1e507e951415d43b7b1d7c35b1cca3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '905622b12939d16e8dde4fd966fc6cee') in 0.186038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00017.png
+  artifactKey: Guid(e341161a4a28d43d2acab309a9952db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00017.png using Guid(e341161a4a28d43d2acab309a9952db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28a1d1b0664723fcfa0f5e87604e0a35') in 0.208501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00044.png
+  artifactKey: Guid(d4d199e3b3cfa409eb3a17ed2d590064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00044.png using Guid(d4d199e3b3cfa409eb3a17ed2d590064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb05a37476d915e6f363f91d22999644') in 0.276649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00015.png
+  artifactKey: Guid(fca63c482ee214bfba957504445b68f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00015.png using Guid(fca63c482ee214bfba957504445b68f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a76446919f5dbc5e9e28e2b5e6635a2e') in 0.312702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00005.png
+  artifactKey: Guid(f725332a62c60433ea73daa985ae5448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00005.png using Guid(f725332a62c60433ea73daa985ae5448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f5d1edf46dc4c418ad122e2ec47b7b') in 0.167564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00086.png
+  artifactKey: Guid(c1166bfef73b54f91af5b7d609f1b5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00086.png using Guid(c1166bfef73b54f91af5b7d609f1b5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18f91e10c3adebda31a402cf93d725f4') in 0.217166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00129.png
+  artifactKey: Guid(d7bafe42d3ce54906b78f88fd445bdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00129.png using Guid(d7bafe42d3ce54906b78f88fd445bdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f7011c5df1e474c2469ef57453acd3') in 0.170636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00051.png
+  artifactKey: Guid(4e34ec21cf0d8452795ab9381a0240d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00051.png using Guid(4e34ec21cf0d8452795ab9381a0240d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6cadee8269d0b88eb216cde7f46f1da') in 0.294175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00085.png
+  artifactKey: Guid(837ba1e2bf2d94388971f950c99a2f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00085.png using Guid(837ba1e2bf2d94388971f950c99a2f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ee67b31b95181d6808684622cb28196') in 0.158861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00094.png
+  artifactKey: Guid(e57f5052a0d54448789cf35aa17f44bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00094.png using Guid(e57f5052a0d54448789cf35aa17f44bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c91312ed24a87ffb1391a6808612d37e') in 0.208246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00060.png
+  artifactKey: Guid(6f0742280bb794baeb9d837f1d821011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00060.png using Guid(6f0742280bb794baeb9d837f1d821011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94906cbd9092bb7d6c32aad1a43252e2') in 0.177547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00012.png
+  artifactKey: Guid(59dc8206b425e443da36e22e07715b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00012.png using Guid(59dc8206b425e443da36e22e07715b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99720b8c7da6027f7a75e7f55124bfaa') in 0.151340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00033.png
+  artifactKey: Guid(da1612aaa301646588e6c6402b861909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00033.png using Guid(da1612aaa301646588e6c6402b861909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01cd907207aa09319b71c3ef0f02dd9b') in 0.263261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00027.png
+  artifactKey: Guid(0b8575480da734a70a059cf9eb025b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00027.png using Guid(0b8575480da734a70a059cf9eb025b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e080d09fb47a18a84d3699d2e02598') in 0.182863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00126.png
+  artifactKey: Guid(a11f39f24045d48aaa94df09016fe123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00126.png using Guid(a11f39f24045d48aaa94df09016fe123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9535d2832b87bd5bcb2cd0bf9ccf3f8c') in 0.214713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00138.png
+  artifactKey: Guid(f9e6ed575da224be3b6aab6bd7146b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00138.png using Guid(f9e6ed575da224be3b6aab6bd7146b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '839fe21006ab1f1034298376bdb236ad') in 0.127249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00152.png
+  artifactKey: Guid(ca295c8a632534908992189e287f5c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00152.png using Guid(ca295c8a632534908992189e287f5c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65a2ca711f8b4edde573d4f2bbad2985') in 0.120398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00079.png
+  artifactKey: Guid(86216597daf6041c98ee87f59f46e46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00079.png using Guid(86216597daf6041c98ee87f59f46e46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2458d303bdad43cb7d5f61beab234c1b') in 0.201061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00028.png
+  artifactKey: Guid(fb94d9903666f457bbf880509d77fe7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00028.png using Guid(fb94d9903666f457bbf880509d77fe7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe340d6da7792eafe60f6d81808033c') in 0.180277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00045.png
+  artifactKey: Guid(b2bd7f3ae967f4084a3750a2eaada7ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00045.png using Guid(b2bd7f3ae967f4084a3750a2eaada7ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d02b21eef026eb4349ac052af2f7cf2') in 0.177436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00090.png
+  artifactKey: Guid(0eb05621d9960488b828694fca4bd74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00090.png using Guid(0eb05621d9960488b828694fca4bd74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b51bae114f1b34bc113f445b900644eb') in 0.201438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00047.png
+  artifactKey: Guid(737a16533b57349d6bd1937e67b3c7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00047.png using Guid(737a16533b57349d6bd1937e67b3c7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0dba2b2271408c4290f8032c583c9a3') in 0.318850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00081.png
+  artifactKey: Guid(9da310d5a832f49efa4f54c6720ef6db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00081.png using Guid(9da310d5a832f49efa4f54c6720ef6db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e861e2d031fe12ba8ff6a7320f67aa98') in 0.170172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00039.png
+  artifactKey: Guid(0c07d4b493afb43158afaae5c2dfb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00039.png using Guid(0c07d4b493afb43158afaae5c2dfb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8488004e24c74e0527ac8fe168a14261') in 0.160840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00087.png
+  artifactKey: Guid(00531221351834369aca584c05ba22a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00087.png using Guid(00531221351834369aca584c05ba22a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b545bead4b7f0d5ccd59750cc8f94a80') in 0.146750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00153.png
+  artifactKey: Guid(33875e9041f4c49f0b4d0fe1d309f182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00153.png using Guid(33875e9041f4c49f0b4d0fe1d309f182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bfcf6f17abc156f54faeac5c6065289') in 0.143508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00024.png
+  artifactKey: Guid(cee3a33e0c0d24f7183d86e8472b95fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00024.png using Guid(cee3a33e0c0d24f7183d86e8472b95fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd6db870ff2c34c0d74d88f4f642294') in 0.158192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00056.png
+  artifactKey: Guid(2e80a065d09564efd99b3c8484d36b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00056.png using Guid(2e80a065d09564efd99b3c8484d36b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ec90178aada850f31659729b2dc1c44') in 0.171726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00131.png
+  artifactKey: Guid(839656243b37b4dba83107f672ef8759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00131.png using Guid(839656243b37b4dba83107f672ef8759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8018ff0afe8fa7035bbdc26bb90982c0') in 0.188809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00122.png
+  artifactKey: Guid(d8a7707ab40384557a93c59e792c38d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00122.png using Guid(d8a7707ab40384557a93c59e792c38d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d4c55fc4bdd63c14bdfae3b2f5a7cf4') in 0.142771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00145.png
+  artifactKey: Guid(0d1751003544c4e3fa250cb2194bcb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00145.png using Guid(0d1751003544c4e3fa250cb2194bcb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d5d748a3d8fb12c7f4bdcce803c345') in 0.217780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00157.png
+  artifactKey: Guid(165bb423423fc4a569194618186b33f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00157.png using Guid(165bb423423fc4a569194618186b33f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bd750359be52adc8df0bdcfee8cca05') in 0.131266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00019.png
+  artifactKey: Guid(728e978a6cfae49cbb7976d992c3cf94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00019.png using Guid(728e978a6cfae49cbb7976d992c3cf94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d31585679a83e9c243d737537f788d') in 0.164476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00111.png
+  artifactKey: Guid(a4e43d8a6d44142e6ac3d4604dc0be2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00111.png using Guid(a4e43d8a6d44142e6ac3d4604dc0be2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff0617a8047e3be47a758a03a3265ab4') in 0.120623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00101.png
+  artifactKey: Guid(286108588f3354da4bc54495e4bc5978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00101.png using Guid(286108588f3354da4bc54495e4bc5978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1052245dda8426f0337c8f48e98799c') in 0.208500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00070.png
+  artifactKey: Guid(d9d007d9f2af3463eb59e7a83b85a6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00070.png using Guid(d9d007d9f2af3463eb59e7a83b85a6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54820ad594fe5f5928237c29f5c71639') in 0.161125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00076.png
+  artifactKey: Guid(5c03282cfdcd7472a9f5e5828297156d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00076.png using Guid(5c03282cfdcd7472a9f5e5828297156d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff65f4b1220470a4e47004b83dd5747') in 0.232022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00035.png
+  artifactKey: Guid(1ee9cc02707fb4224a9c275dab761821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00035.png using Guid(1ee9cc02707fb4224a9c275dab761821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da6b74759a185416848073c1f7e207b8') in 0.262292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00063.png
+  artifactKey: Guid(5da6811f7e6d24b4b8e0a9dd3e69bfaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00063.png using Guid(5da6811f7e6d24b4b8e0a9dd3e69bfaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20c81399d2ecfe64acd9c1259830f463') in 0.343294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00105.png
+  artifactKey: Guid(ea5ebee4522fe4d41a7fe73a4a9cc4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00105.png using Guid(ea5ebee4522fe4d41a7fe73a4a9cc4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b870626710932d96010a673dbbeef33e') in 0.139665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00036.png
+  artifactKey: Guid(a73a4cf8a8bf549ba95c6ae503827b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00036.png using Guid(a73a4cf8a8bf549ba95c6ae503827b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8cbce1e0cb02101050691536b8871bc') in 0.325652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00008.png
+  artifactKey: Guid(3f731ce2300ab4785a1be2c1a4251054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00008.png using Guid(3f731ce2300ab4785a1be2c1a4251054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e999de886891c87df4244f0f42a8869c') in 0.252731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00026.png
+  artifactKey: Guid(63fa5fad1d86d4b0891ea2e4a3feeb60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00026.png using Guid(63fa5fad1d86d4b0891ea2e4a3feeb60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2281afc489e6e3175ed8e6118d98eefa') in 0.162427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00072.png
+  artifactKey: Guid(f31ba527e22fe4bacb042f37804d8e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00072.png using Guid(f31ba527e22fe4bacb042f37804d8e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd096be0668884b384a12b854d0bd1f') in 0.185904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00099.png
+  artifactKey: Guid(557f5be19e02c4f14a7ad5970e84b638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00099.png using Guid(557f5be19e02c4f14a7ad5970e84b638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f437c396ee7bfeb59b5d3c11b7a43e5') in 0.131966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00089.png
+  artifactKey: Guid(50f99bed7f3c8404baacc3459efea49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00089.png using Guid(50f99bed7f3c8404baacc3459efea49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc5c9d453be5c4a2c56c53d31f18d843') in 0.145655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00030.png
+  artifactKey: Guid(e899bf50f8a004016aca9245c33d0a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00030.png using Guid(e899bf50f8a004016aca9245c33d0a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7132f4467768318f9644c22186641d28') in 0.174903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00001.png
+  artifactKey: Guid(7ad7bebb4d0144f5787ea12207572d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00001.png using Guid(7ad7bebb4d0144f5787ea12207572d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2a22af60e03ccb859136ce9decf4b4f') in 0.277569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00092.png
+  artifactKey: Guid(a888d8489650b40779af5b693cc98a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00092.png using Guid(a888d8489650b40779af5b693cc98a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f557557c373f40c34ad03283c3b08dc') in 0.306013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00040.png
+  artifactKey: Guid(b660efbdf97964f6496f64297db827bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00040.png using Guid(b660efbdf97964f6496f64297db827bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8a820f7cbf8a190b8efe2c13ec19926') in 0.182068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00133.png
+  artifactKey: Guid(a723a29b4b73942c4b3971669e886593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00133.png using Guid(a723a29b4b73942c4b3971669e886593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b5323e7d8a27f47b827207d3a49219') in 0.198133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00061.png
+  artifactKey: Guid(b935cae89070d4dddb8c018e077e9148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00061.png using Guid(b935cae89070d4dddb8c018e077e9148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '134e5c05d6215dfd1f604f64e33d7d62') in 0.177364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00104.png
+  artifactKey: Guid(e8c52b8b399b645cc91b496d6d7bc97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00104.png using Guid(e8c52b8b399b645cc91b496d6d7bc97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ec6b46b21c9967590e9dd4e1b7f4cb') in 0.089229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00116.png
+  artifactKey: Guid(54dbd2515abf845df9dc6281f6290128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00116.png using Guid(54dbd2515abf845df9dc6281f6290128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a59cd188e25250d0daf179dfecf01a12') in 0.142079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00142.png
+  artifactKey: Guid(3dc106126d32d4a10831f237ec0b12c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00142.png using Guid(3dc106126d32d4a10831f237ec0b12c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b46ebde2e8017b005cc6e5a37655a3') in 0.126020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00065.png
+  artifactKey: Guid(de24ec74ad972479eae206139fe558e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00065.png using Guid(de24ec74ad972479eae206139fe558e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb42bb6d9ce99a98eb9926df5f62ea2f') in 0.155014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00130.png
+  artifactKey: Guid(6b35b0945102b4a27bf8df494836d41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00130.png using Guid(6b35b0945102b4a27bf8df494836d41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e009f9e4b11d2957caa32adf911a5a') in 0.141517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00148.png
+  artifactKey: Guid(3dc51c651944b4c53b64f9744b7d656b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00148.png using Guid(3dc51c651944b4c53b64f9744b7d656b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '368edb492b392a9b36186295138de3ed') in 0.130276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00100.png
+  artifactKey: Guid(960be1b22e0c847e5ab9547ad1f9c430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00100.png using Guid(960be1b22e0c847e5ab9547ad1f9c430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6a4b60370fdf4da078101f3e412c00') in 0.315972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00123.png
+  artifactKey: Guid(9bba6c462b8a244b686490602f71c297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00123.png using Guid(9bba6c462b8a244b686490602f71c297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9954183422dd8a6a77665955645298e8') in 0.119064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00042.png
+  artifactKey: Guid(e9a04f6310f2b46548307c3f6c9d969c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00042.png using Guid(e9a04f6310f2b46548307c3f6c9d969c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa2199debaec8959ad2e8151589107e0') in 0.116536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00132.png
+  artifactKey: Guid(41ce95e7780564a3594bbb2119c262af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00132.png using Guid(41ce95e7780564a3594bbb2119c262af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33080b2ee8a268ecad45335902e0e1a3') in 0.137189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00136.png
+  artifactKey: Guid(a40ce3f8f3b194b10bbbfcd4d893cfb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00136.png using Guid(a40ce3f8f3b194b10bbbfcd4d893cfb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe36eab1cd9ecb4a84c2801834b1ae43') in 0.115721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00058.png
+  artifactKey: Guid(1b16faa86f0364cb0b15268ced77c365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00058.png using Guid(1b16faa86f0364cb0b15268ced77c365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4440543dfd99ee1aeb80757332a9fdb9') in 0.167092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00002.png
+  artifactKey: Guid(78971ab2e8fdc493a89653a7f0cc5b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00002.png using Guid(78971ab2e8fdc493a89653a7f0cc5b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d4afdc9e11fc3eb7719bd65b7c9d92') in 0.197295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00052.png
+  artifactKey: Guid(4bfee2190ee894cd0a564ffa47967af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00052.png using Guid(4bfee2190ee894cd0a564ffa47967af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e60ebecbbe5fc4a508c9518cbdae57ea') in 0.197601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00013.png
+  artifactKey: Guid(57fcb5d1186e648ca95a778c850f72cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00013.png using Guid(57fcb5d1186e648ca95a778c850f72cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d36969e3becd62480e253f13024c35b') in 0.218276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00003.png
+  artifactKey: Guid(daf5661546aee426997534d69e803087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00003.png using Guid(daf5661546aee426997534d69e803087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e095265f3de4bd8a67a2063397cc4e9') in 0.181769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00124.png
+  artifactKey: Guid(47352f872e40b44d4ac675de934a583b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00124.png using Guid(47352f872e40b44d4ac675de934a583b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17994f802b913dc9ac31ee63e7bdbbc3') in 0.423059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00113.png
+  artifactKey: Guid(68bbd983042164fed910ee97dc6335d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00113.png using Guid(68bbd983042164fed910ee97dc6335d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482f2c8957cc68659e6f8f6b95d5e1d9') in 0.142488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00127.png
+  artifactKey: Guid(5217911993c1c4c6aa093fd4e4dfab1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00127.png using Guid(5217911993c1c4c6aa093fd4e4dfab1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a858fa43b0361d14dd77bc98b12610') in 0.266850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00109.png
+  artifactKey: Guid(b412e0652c23048c497ace2f5b3c8b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00109.png using Guid(b412e0652c23048c497ace2f5b3c8b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db81d9254eb60e41814f998bb0fbda6c') in 0.279175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00016.png
+  artifactKey: Guid(f8122fc90a32740bbb5e4454c086b3b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00016.png using Guid(f8122fc90a32740bbb5e4454c086b3b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '270cde5c18cbd5d5dc45cd9eabea0f01') in 0.174164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00075.png
+  artifactKey: Guid(73caabe4594544780a1796143beabf3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00075.png using Guid(73caabe4594544780a1796143beabf3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e118b5ea24495bbf0e27a611a8822b3') in 0.247709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00095.png
+  artifactKey: Guid(a134f177856bb4603bde8349d2662189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00095.png using Guid(a134f177856bb4603bde8349d2662189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a623c7270bd4047ea3280d842b5509') in 0.131398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00103.png
+  artifactKey: Guid(d08ad923f3c8a4a39a9be527763b519f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00103.png using Guid(d08ad923f3c8a4a39a9be527763b519f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae65dce4bb7812ae271c98b65b212b62') in 0.164580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00057.png
+  artifactKey: Guid(796d1df4edfc74ff0b3fe588d7d8250a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00057.png using Guid(796d1df4edfc74ff0b3fe588d7d8250a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daf9a700d6c2e5fbac2eedb18f5c1b61') in 0.286427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00112.png
+  artifactKey: Guid(53037eb2c6f4e44fcb16d285e1494c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00112.png using Guid(53037eb2c6f4e44fcb16d285e1494c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b0beeb9f51696d78bd740681e5d0271') in 0.232303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00098.png
+  artifactKey: Guid(1fc97c3974dbd495cb0e0473cab77e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00098.png using Guid(1fc97c3974dbd495cb0e0473cab77e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5253a3df230a35963a23c228f47ff89b') in 0.222642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00117.png
+  artifactKey: Guid(04bf236f930d14f8bac4fd95dd81cf84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00117.png using Guid(04bf236f930d14f8bac4fd95dd81cf84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be7668e042682a7245301c501c90e0f7') in 0.150031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00128.png
+  artifactKey: Guid(c80923f3c3c3a42b7aacd6380f7f4cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00128.png using Guid(c80923f3c3c3a42b7aacd6380f7f4cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '778545cb961b44201f920b76844340f5') in 0.158044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00082.png
+  artifactKey: Guid(94a3ee05b6abb47c7a64b5534b517070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00082.png using Guid(94a3ee05b6abb47c7a64b5534b517070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b96c7331f922d1ea2fb55888d537be') in 0.164037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00023.png
+  artifactKey: Guid(91196a906389c471f8593f534e66a4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00023.png using Guid(91196a906389c471f8593f534e66a4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aa5b84344c8eca90ae54181938f23e6') in 0.152740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00054.png
+  artifactKey: Guid(f289d1ad9e6414b6f97e6d719db4b212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00054.png using Guid(f289d1ad9e6414b6f97e6d719db4b212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6079f5a55ffa13bc3a6f043b757808d') in 0.382415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00037.png
+  artifactKey: Guid(78abec5866bd848ef811a229b8b2fa76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00037.png using Guid(78abec5866bd848ef811a229b8b2fa76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14802642bd613a499136140a26a98576') in 0.321695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00144.png
+  artifactKey: Guid(a93478cc813924a6d85ecb54a8085791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00144.png using Guid(a93478cc813924a6d85ecb54a8085791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e5684dd78102d8258ba6056ad072cd5') in 0.260264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00071.png
+  artifactKey: Guid(8fa9b5441e84849b29b2487c2b3b5aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00071.png using Guid(8fa9b5441e84849b29b2487c2b3b5aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f1b5e9857340a9e8b9c7b02ecb09e47') in 0.145553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00106.png
+  artifactKey: Guid(11e0fac58e59f402582d09518c0b7e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00106.png using Guid(11e0fac58e59f402582d09518c0b7e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd736c61f83f51b789f6557adb417f3c1') in 0.227389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00108.png
+  artifactKey: Guid(2370ec9bb8f5149a389dc30589b6a185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00108.png using Guid(2370ec9bb8f5149a389dc30589b6a185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a20b0263b29a872765e28a10f28772ab') in 0.179787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00143.png
+  artifactKey: Guid(b2185a6e9684145cfaddb935abed604e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00143.png using Guid(b2185a6e9684145cfaddb935abed604e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda544ccfe15aeeeceb61fd88d101454') in 0.159505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00107.png
+  artifactKey: Guid(9a05ff65189754830b34396b2818cc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00107.png using Guid(9a05ff65189754830b34396b2818cc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d1363e54a796d374e7a26e40bb1f20') in 0.171212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00119.png
+  artifactKey: Guid(77e7f790f09be49729634031553df97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00119.png using Guid(77e7f790f09be49729634031553df97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2683cc325ccac498fde39b275db31c38') in 0.280400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00062.png
+  artifactKey: Guid(c180fc27de500480ca67b53325cdf3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00062.png using Guid(c180fc27de500480ca67b53325cdf3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c38ac4cd7f2f2858028278fbfb220b9b') in 0.116308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00102.png
+  artifactKey: Guid(45db42ac1f8f14d23859ac586f6f011d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00102.png using Guid(45db42ac1f8f14d23859ac586f6f011d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c8e73e8c987d9c3f6bf333c12d9cd22') in 0.145024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00096.png
+  artifactKey: Guid(3b67f05db2dbe41d4abab861b477afca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00096.png using Guid(3b67f05db2dbe41d4abab861b477afca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1986b2bb8e41a9f7c9469fdf8d21f3d6') in 0.165948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00114.png
+  artifactKey: Guid(f12956044edc34f9d907b287bcb34ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00114.png using Guid(f12956044edc34f9d907b287bcb34ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f50497ea4a0fe66addf28328db47ff0') in 0.130739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00011.png
+  artifactKey: Guid(f3cb92afea9964a989cbf5ca344bd40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00011.png using Guid(f3cb92afea9964a989cbf5ca344bd40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23440dfc505de668184baa1b329b51b9') in 0.404624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00021.png
+  artifactKey: Guid(1202cb242bb50492a94f5a465be87d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00021.png using Guid(1202cb242bb50492a94f5a465be87d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '005387a8a91393eee79b8af097be0879') in 0.282594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00077.png
+  artifactKey: Guid(30d37ae0d67164c1592f31f4642d041b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00077.png using Guid(30d37ae0d67164c1592f31f4642d041b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06f313dbe1baf4c1dd299e822cf03a04') in 0.193917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00050.png
+  artifactKey: Guid(f9a70c5295d714cb6afc58c24ccb35db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00050.png using Guid(f9a70c5295d714cb6afc58c24ccb35db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ee60b4c3bc9cb6a6ebfcc62bc7c2cab') in 0.166125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00046.png
+  artifactKey: Guid(65cfdd4bdb178442fae4da3d264cc6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00046.png using Guid(65cfdd4bdb178442fae4da3d264cc6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7466e5f92e7d130b71719390bf3ce7e9') in 0.217751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00125.png
+  artifactKey: Guid(8fc2c4763a4024c22ba2bda2d23c56ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00125.png using Guid(8fc2c4763a4024c22ba2bda2d23c56ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9267422129cb6928f1aa36f2361b504') in 0.210844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00078.png
+  artifactKey: Guid(d2ba380d025c44668a2250d31e0cf9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00078.png using Guid(d2ba380d025c44668a2250d31e0cf9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '083809179e86ba255b39cdfa9ced3f0a') in 0.134704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00049.png
+  artifactKey: Guid(10f0593302ee844a0b929e7a74570bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00049.png using Guid(10f0593302ee844a0b929e7a74570bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05477e15fa77fcf7a77cc1d5f79d8cdd') in 0.302909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00009.png
+  artifactKey: Guid(dfa5701031e134a99a0573d342f70895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00009.png using Guid(dfa5701031e134a99a0573d342f70895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a837022d685d410ff74eecc18c2961c3') in 0.218815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00147.png
+  artifactKey: Guid(e743cdaed082647e798d8145ff889a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00147.png using Guid(e743cdaed082647e798d8145ff889a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e0f77dee409ab306af235327918bda') in 0.454181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00115.png
+  artifactKey: Guid(f78460ceeb77640c595dd74dc6ddd745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00115.png using Guid(f78460ceeb77640c595dd74dc6ddd745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46193330fc299249d4f89591e9fb3da') in 0.176796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00029.png
+  artifactKey: Guid(e1c49d145e6a542c19dbb057bacb41f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00029.png using Guid(e1c49d145e6a542c19dbb057bacb41f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a37d36b46e8897dd7e2ad1945ec9f2ab') in 0.149804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00093.png
+  artifactKey: Guid(2ddfd6f16a1fe479aa7c726ac56ec331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00093.png using Guid(2ddfd6f16a1fe479aa7c726ac56ec331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcdb7023f389abc5bf1cb9621d44e94b') in 0.173027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00120.png
+  artifactKey: Guid(4979cbdac38b6463eb4502dc57c997e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00120.png using Guid(4979cbdac38b6463eb4502dc57c997e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af837e4613a8d8129f3bd0dd36f5d74f') in 0.140511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00032.png
+  artifactKey: Guid(d47c26f00902f484bb8c298d6ca32b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00032.png using Guid(d47c26f00902f484bb8c298d6ca32b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b729e014c332b5cdabf17af3ad3544f') in 0.118306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00083.png
+  artifactKey: Guid(f8f1e658bc667423a81ea257fd330ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00083.png using Guid(f8f1e658bc667423a81ea257fd330ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108ed461b344731a614c662076330f05') in 0.188281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00031.png
+  artifactKey: Guid(a164bc74192c842469612dbc515f2fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00031.png using Guid(a164bc74192c842469612dbc515f2fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64d44625aaec4dff3362baaebf4a5e44') in 0.334233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00150.png
+  artifactKey: Guid(529eaf4f0c28a4fe6a94141067acd466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00150.png using Guid(529eaf4f0c28a4fe6a94141067acd466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d7947890e4dea28eb3482637c15cb2') in 0.184754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00156.png
+  artifactKey: Guid(b58d14cd43288416aa193e8055f052d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00156.png using Guid(b58d14cd43288416aa193e8055f052d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1baeaea0d445a5f94bad1bfc3d7828') in 0.103136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00043.png
+  artifactKey: Guid(f1bcbead3758544dba81a54afd679783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00043.png using Guid(f1bcbead3758544dba81a54afd679783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3765363e3389b2562ab7801cc87e5719') in 0.121996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00088.png
+  artifactKey: Guid(47877e4eb42054f5f8d4784272e73728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00088.png using Guid(47877e4eb42054f5f8d4784272e73728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '567c01f66eaf623762d5252810a2ebdc') in 0.266890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00149.png
+  artifactKey: Guid(9c06f0cb6117c4842b82ca92b9ae0da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00149.png using Guid(9c06f0cb6117c4842b82ca92b9ae0da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ab58c8ae736ae29026d6d2c5589cf7') in 0.177733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00141.png
+  artifactKey: Guid(42264e3d6a484434f90c68d029679f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00141.png using Guid(42264e3d6a484434f90c68d029679f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '485351388b8356150c8dd6770629390e') in 0.088216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.118708 seconds.
+  path: Assets/2D Galaxy Assets
+  artifactKey: Guid(af42adcc9a2e0854aaf606b75291f8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets using Guid(af42adcc9a2e0854aaf606b75291f8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d132eff393cdcaaa5c3c32c6143f71a') in 0.020481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 611.099824 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e24c38ded777c6eac716cf6ee885caa1') in 0.042536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 567.799985 seconds.
+  path: Assets/2D Galaxy Assets/Game/Materials
+  artifactKey: Guid(b34b3edecbda8e64f8c31784e8136386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Materials using Guid(b34b3edecbda8e64f8c31784e8136386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35ac291e6e23935b01cd1ac11d10d967') in 0.006237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 71.291661 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites
+  artifactKey: Guid(4460d29f37f41444497e92d82d681672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites using Guid(4460d29f37f41444497e92d82d681672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebcb4dca263071902b6860ac74da04e7') in 0.005043 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.024182 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\dougl\Documents\Meus projetos\Unity\2D\First project (Space Shooter)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\dougl\Documents\Meus projetos\Unity\2D\First project (Space Shooter)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.27 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 24.497 seconds
+Domain Reload Profiling:
+	ReloadAssembly (24603ms)
+		BeginReloadAssembly (15999ms)
+			ExecutionOrderSort (67ms)
+			DisableScriptedObjects (2385ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (10302ms)
+		EndReloadAssembly (6286ms)
+			LoadAssemblies (1133ms)
+			RebuildTransferFunctionScriptingTraits (66ms)
+			SetupTypeCache (2579ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (188ms)
+			SetupLoadedEditorAssemblies (2506ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (176ms)
+				SetLoadedEditorAssemblies (34ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (503ms)
+				ProcessInitializeOnLoadAttributes (1555ms)
+				ProcessInitializeOnLoadMethodAttributes (211ms)
+				AfterProcessingInitializeOnLoad (23ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 102.48 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4052 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (0.5 MB). Loaded Objects now: 4513.
+Memory consumption went from 157.0 MB to 156.4 MB.
+Total: 59.521500 ms (FindLiveObjects: 1.038900 ms CreateObjectMapping: 0.249800 ms MarkObjects: 57.563900 ms  DeleteObjects: 0.661100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 1.096170 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\dougl\Documents\Meus projetos\Unity\2D\First project (Space Shooter)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\dougl\Documents\Meus projetos\Unity\2D\First project (Space Shooter)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.93 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 11.505 seconds
+Domain Reload Profiling:
+	ReloadAssembly (11506ms)
+		BeginReloadAssembly (7900ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (180ms)
+		EndReloadAssembly (3217ms)
+			LoadAssemblies (9141ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (525ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (111ms)
+			SetupLoadedEditorAssemblies (862ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (203ms)
+				ProcessInitializeOnLoadAttributes (443ms)
+				ProcessInitializeOnLoadMethodAttributes (164ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 63.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4052 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (0.5 MB). Loaded Objects now: 4516.
+Memory consumption went from 157.0 MB to 156.5 MB.
+Total: 11.520900 ms (FindLiveObjects: 1.046500 ms CreateObjectMapping: 0.482800 ms MarkObjects: 9.446100 ms  DeleteObjects: 0.541800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1337.679913 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f74b9f0782f3ffe8a654b2b60a9f33c') in 1.130556 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018534 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\dougl\Documents\Meus projetos\Unity\2D\First project (Space Shooter)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\dougl\Documents\Meus projetos\Unity\2D\First project (Space Shooter)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.90 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.879 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2880ms)
+		BeginReloadAssembly (477ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (91ms)
+		EndReloadAssembly (2171ms)
+			LoadAssemblies (555ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (586ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (110ms)
+			SetupLoadedEditorAssemblies (902ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (207ms)
+				ProcessInitializeOnLoadAttributes (531ms)
+				ProcessInitializeOnLoadMethodAttributes (106ms)
+				AfterProcessingInitializeOnLoad (23ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 9.60 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4052 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (0.5 MB). Loaded Objects now: 4519.
+Memory consumption went from 157.0 MB to 156.5 MB.
+Total: 11.402900 ms (FindLiveObjects: 1.252500 ms CreateObjectMapping: 0.826100 ms MarkObjects: 8.804600 ms  DeleteObjects: 0.515700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 299.788669 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/SpaceBG_Overlay.png
+  artifactKey: Guid(351f30ffb741fd643b82bde90a222699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/SpaceBG_Overlay.png using Guid(351f30ffb741fd643b82bde90a222699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17615cfe03dc5d0c53e95941a763c581') in 1.266054 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.025330 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\dougl\Documents\Meus projetos\Unity\2D\First project (Space Shooter)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\dougl\Documents\Meus projetos\Unity\2D\First project (Space Shooter)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.85 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.444 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2446ms)
+		BeginReloadAssembly (327ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (99ms)
+		EndReloadAssembly (1893ms)
+			LoadAssemblies (238ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (586ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (106ms)
+			SetupLoadedEditorAssemblies (851ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (195ms)
+				ProcessInitializeOnLoadAttributes (496ms)
+				ProcessInitializeOnLoadMethodAttributes (103ms)
+				AfterProcessingInitializeOnLoad (24ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 8.31 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4052 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (0.5 MB). Loaded Objects now: 4525.
+Memory consumption went from 157.0 MB to 156.5 MB.
+Total: 9.303900 ms (FindLiveObjects: 0.985900 ms CreateObjectMapping: 0.341500 ms MarkObjects: 7.444100 ms  DeleteObjects: 0.528500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020103 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\dougl\Documents\Meus projetos\Unity\2D\First project (Space Shooter)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\dougl\Documents\Meus projetos\Unity\2D\First project (Space Shooter)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.87 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.294 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2296ms)
+		BeginReloadAssembly (300ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (74ms)
+		EndReloadAssembly (1758ms)
+			LoadAssemblies (230ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (527ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (110ms)
+			SetupLoadedEditorAssemblies (778ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (190ms)
+				ProcessInitializeOnLoadAttributes (438ms)
+				ProcessInitializeOnLoadMethodAttributes (89ms)
+				AfterProcessingInitializeOnLoad (26ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (28ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.12 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4052 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (0.5 MB). Loaded Objects now: 4528.
+Memory consumption went from 157.0 MB to 156.5 MB.
+Total: 8.762700 ms (FindLiveObjects: 1.307000 ms CreateObjectMapping: 0.601000 ms MarkObjects: 6.325000 ms  DeleteObjects: 0.524900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1712.515541 seconds.
+  path: Assets/2D Galaxy Assets/Game/Sprites/Player_Turn_Left/Player Turn Left0000.png
+  artifactKey: Guid(1b4a8fdd39d3a45d0a9ee484ad6800ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Sprites/Player_Turn_Left/Player Turn Left0000.png using Guid(1b4a8fdd39d3a45d0a9ee484ad6800ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7727d3a7eb4b2bda0d4a89996d391cf7') in 4.424159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 248.334549 seconds.
+  path: Assets/2D Galaxy Assets/Game
+  artifactKey: Guid(fc35a659dd6448d4f9e2696864842114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game using Guid(fc35a659dd6448d4f9e2696864842114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71cea74e8386ebff62d22b409daa5ce3') in 0.070449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.586809 seconds.
+  path: Assets/2D Galaxy Assets/Game/Scripts
+  artifactKey: Guid(16e9a62b76aa0874a8dc707ac47c9af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Scripts using Guid(16e9a62b76aa0874a8dc707ac47c9af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44726949282f9ca32668caac4cff083d') in 0.103498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.665149 seconds.
+  path: Assets/2D Galaxy Assets/Game/Scripts/Player.cs
+  artifactKey: Guid(77b9db92716a06248b85c098bf25d087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Scripts/Player.cs using Guid(77b9db92716a06248b85c098bf25d087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d197e10e679e91893b06f6ca0e8f36') in 0.880916 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019582 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\dougl\Documents\Meus projetos\Unity\2D\First project (Space Shooter)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\dougl\Documents\Meus projetos\Unity\2D\First project (Space Shooter)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.15 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 36.501 seconds
+Domain Reload Profiling:
+	ReloadAssembly (36538ms)
+		BeginReloadAssembly (17050ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (1465ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (5ms)
+			CreateAndSetChildDomain (7218ms)
+		EndReloadAssembly (18397ms)
+			LoadAssemblies (9731ms)
+			RebuildTransferFunctionScriptingTraits (16ms)
+			SetupTypeCache (6045ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (1003ms)
+			SetupLoadedEditorAssemblies (5777ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (120ms)
+				SetLoadedEditorAssemblies (40ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (499ms)
+				ProcessInitializeOnLoadAttributes (4235ms)
+				ProcessInitializeOnLoadMethodAttributes (856ms)
+				AfterProcessingInitializeOnLoad (24ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (151ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 311.30 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4053 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (0.5 MB). Loaded Objects now: 4532.
+Memory consumption went from 157.1 MB to 156.5 MB.
+Total: 59.820800 ms (FindLiveObjects: 0.979000 ms CreateObjectMapping: 0.247300 ms MarkObjects: 58.035400 ms  DeleteObjects: 0.552800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022953 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\dougl\Documents\Meus projetos\Unity\2D\First project (Space Shooter)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\dougl\Documents\Meus projetos\Unity\2D\First project (Space Shooter)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.19 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 136.269 seconds
+Domain Reload Profiling:
+	ReloadAssembly (137091ms)
+		BeginReloadAssembly (101893ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (21310ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (85ms)
+			CreateAndSetChildDomain (57514ms)
+		EndReloadAssembly (31464ms)
+			LoadAssemblies (23242ms)
+			RebuildTransferFunctionScriptingTraits (29ms)
+			SetupTypeCache (8985ms)
+			ReleaseScriptCaches (84ms)
+			RebuildScriptCaches (773ms)
+			SetupLoadedEditorAssemblies (8577ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (408ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (1180ms)
+				ProcessInitializeOnLoadAttributes (5548ms)
+				ProcessInitializeOnLoadMethodAttributes (1396ms)
+				AfterProcessingInitializeOnLoad (39ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 495.46 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4053 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (0.5 MB). Loaded Objects now: 4535.
+Memory consumption went from 157.1 MB to 156.5 MB.
+Total: 972.112800 ms (FindLiveObjects: 1.796000 ms CreateObjectMapping: 0.967900 ms MarkObjects: 968.298500 ms  DeleteObjects: 1.043500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 1.307854 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\dougl\Documents\Meus projetos\Unity\2D\First project (Space Shooter)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\dougl\Documents\Meus projetos\Unity\2D\First project (Space Shooter)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1372.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 90.297 seconds
+Domain Reload Profiling:
+	ReloadAssembly (90959ms)
+		BeginReloadAssembly (58017ms)
+			ExecutionOrderSort (163ms)
+			DisableScriptedObjects (11256ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (198ms)
+			CreateAndSetChildDomain (24378ms)
+		EndReloadAssembly (28492ms)
+			LoadAssemblies (13886ms)
+			RebuildTransferFunctionScriptingTraits (53ms)
+			SetupTypeCache (3670ms)
+			ReleaseScriptCaches (395ms)
+			RebuildScriptCaches (684ms)
+			SetupLoadedEditorAssemblies (10771ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (1596ms)
+				SetLoadedEditorAssemblies (51ms)
+				RefreshPlugins (1433ms)
+				BeforeProcessingInitializeOnLoad (1803ms)
+				ProcessInitializeOnLoadAttributes (5035ms)
+				ProcessInitializeOnLoadMethodAttributes (815ms)
+				AfterProcessingInitializeOnLoad (35ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (134ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 199.83 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4053 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (0.5 MB). Loaded Objects now: 4538.
+Memory consumption went from 157.1 MB to 156.5 MB.
+Total: 779.960400 ms (FindLiveObjects: 45.528800 ms CreateObjectMapping: 12.021700 ms MarkObjects: 649.588800 ms  DeleteObjects: 72.815000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4095.318552 seconds.
+  path: Assets/2D Galaxy Assets/Game/Scripts/Player.cs
+  artifactKey: Guid(77b9db92716a06248b85c098bf25d087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Galaxy Assets/Game/Scripts/Player.cs using Guid(77b9db92716a06248b85c098bf25d087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b6956899cebee315e4b7673e10c4df') in 0.591172 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.021723 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\dougl\Documents\Meus projetos\Unity\2D\First project (Space Shooter)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\dougl\Documents\Meus projetos\Unity\2D\First project (Space Shooter)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.99 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 43.478 seconds
+Domain Reload Profiling:
+	ReloadAssembly (43610ms)
+		BeginReloadAssembly (21239ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (396ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3462ms)
+		EndReloadAssembly (19001ms)
+			LoadAssemblies (21663ms)
+			RebuildTransferFunctionScriptingTraits (30ms)
+			SetupTypeCache (7662ms)
+			ReleaseScriptCaches (75ms)
+			RebuildScriptCaches (288ms)
+			SetupLoadedEditorAssemblies (4002ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (229ms)
+				SetLoadedEditorAssemblies (16ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (658ms)
+				ProcessInitializeOnLoadAttributes (2668ms)
+				ProcessInitializeOnLoadMethodAttributes (405ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (75ms)
+Platform modules already initialized, skipping

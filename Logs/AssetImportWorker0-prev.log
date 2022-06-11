@@ -15,7 +15,7 @@ C:/Users/dougl/Documents/Meus projetos/Unity/2D/First project (Space Shooter)
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64741
+64409
 Successfully changed project path to: C:/Users/dougl/Documents/Meus projetos/Unity/2D/First project (Space Shooter)
 C:/Users/dougl/Documents/Meus projetos/Unity/2D/First project (Space Shooter)
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,15 +47,3 @@ C:/Users/dougl/Documents/Meus projetos/Unity/2D/First project (Space Shooter)
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 1536.01 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/dougl/Documents/Meus projetos/Unity/2D/First project (Space Shooter)/Assets
-GfxDevice: creating device client; threaded=0; jobified=0
-Direct3D:
-    Version:  Direct3D 11.0 [level 10.0]
-    Renderer: Intel(R) HD Graphics (ID=0x46)
-    Vendor:   Intel
-    VRAM:     128 MB
-    Driver:   8.15.10.2900
