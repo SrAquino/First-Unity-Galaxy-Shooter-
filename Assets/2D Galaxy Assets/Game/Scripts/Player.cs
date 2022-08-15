@@ -10,7 +10,7 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start(){
         Debug.Log("Hello: " + name);
-        transform.position = new Vector3(0,0,0);
+        transform.position = new Vector3(0,-4,0);
         
     }
 
@@ -18,5 +18,12 @@ public class Player : MonoBehaviour
     void Update(){
         horizontalImput = Input.GetAxis("Horizontal");
         transform.Translate(Vector3.right * Time.deltaTime * speed * horizontalImput);
+
+        if (transform.position.x > 7.5f){
+            transform.position = new Vector3(7.5f, transform.position.y, 0);
+        }
+        if (transform.position.x < -7.5f) {
+            transform.position = new Vector3(-7.5f, transform.position.y, 0);
+        }
     }
 }
