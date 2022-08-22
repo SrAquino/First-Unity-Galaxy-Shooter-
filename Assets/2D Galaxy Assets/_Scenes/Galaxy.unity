@@ -155,6 +155,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   horizontalImput: 0
   speed: 5
+  fireRate: 0.25
+  canFire: 0
+  powerShoot: 0
+  powerSpeed: 0
+  NormalLaser: {fileID: 7646081073946996355, guid: 446d313b8a24bca4db0890c0be3c8c5a, type: 3}
+  TripleLaser: {fileID: 276411621557413272, guid: 2d8d6754a546673479629cda173ad547, type: 3}
 --- !u!212 &983019186
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -215,8 +221,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 983019184}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.5, y: -3.82, z: 0}
-  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
+  m_LocalPosition: {x: 0, y: -4, z: 0}
+  m_LocalScale: {x: 0.4068, y: 0.4, z: 0.4}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
