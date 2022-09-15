@@ -7,16 +7,15 @@ public class Player : MonoBehaviour
     public float horizontalImput;
     public float speed = 5.0f;
 
-    public float fireRate = 0.25f;
+    public float fireRate = 0.35f;
     public float canFire = 0.0f;
 
     public bool powerShoot = false;
     public bool powerSpeed = false;
+    public bool powerShield = false;
 
     [SerializeField]// Variavel privada mas pode ser modificada no unity
     private GameObject NormalLaser;
-    [SerializeField]
-    private GameObject TripleLaser;
 
     // Start is called before the first frame update
     void Start(){
@@ -37,6 +36,10 @@ public class Player : MonoBehaviour
 
         // Captura entrada do teclado (setas '<-' '->' ou 'a' 'd')
         horizontalImput = Input.GetAxis("Horizontal");
+        
+        if (powerSpeed){
+            transform.Translate(Vector3.right * Time.deltaTime * (speed*2) * horizontalImput);
+        }
         // Atualiza as informações do objeto player multiplicando por 1 ou -1 o que faz ir pra direita ou esquerda
         transform.Translate(Vector3.right * Time.deltaTime * speed * horizontalImput);
 
@@ -52,10 +55,11 @@ public class Player : MonoBehaviour
     private void Shooting(){
         if(Time.time > canFire){
 
-            if (powerShoot == true){
-                 Instantiate(TripleLaser, transform.position + new Vector3(-1.246f,0.5f,0), Quaternion.identity);
+            if (powerShoot){
+                 Instantiate(NormalLaser, transform.position + new Vector3(-0.55f,0,0), Quaternion.identity);
+                 Instantiate(NormalLaser, transform.position + new Vector3(0.55f,0,0), Quaternion.identity);
                  
-            } else {
+            }
             // Input.GetKeyDown(KeyCode.Space)
             // Sempre que apertar espaço um novo objeto é instanciado
             //          (O objeto, O local, );
@@ -64,10 +68,44 @@ public class Player : MonoBehaviour
             //          (transform.position retorna a posição atual do player)
             //          (Quaternion = )
 
-            }
-            
                 canFire = fireRate + Time.time;
                 //Atira denovo depois do tempo de cooldown
         }
     } 
+
+    public void powerUpOn(string power){
+        switch(power){
+            case "triple":
+                powerShoot = true;
+                StartCoroutine(PowerDownRotine("triple"));
+            break;
+
+            case "speed":
+                powerSpeed = true;
+                StartCoroutine(PowerDownRotine("speed"));
+            break;
+
+            case "shield":
+                powerShield = true;
+                StartCoroutine(PowerDownRotine("shield"));
+            break;
+        }
+    }
+    IEnumerator PowerDownRotine(string power){
+        yield return new WaitForSeconds(5.0f);
+
+        switch(power){
+            case "triple":
+                powerShoot = false;
+            break;
+
+            case "speed":
+                powerSpeed = false;
+            break;
+
+            case "shield":
+                powerShield = false;
+            break;
+        }
+    }
 }
