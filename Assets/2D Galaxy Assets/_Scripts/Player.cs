@@ -7,12 +7,14 @@ public class Player : MonoBehaviour
     public float horizontalImput;
     public float speed = 5.0f;
 
-    public float fireRate = 0.35f;
+    public float fireRate = 0.7f;
     public float canFire = 0.0f;
 
     public bool powerShoot = false;
     public bool powerSpeed = false;
     public bool powerShield = false;
+
+    private int Life = 3;
 
     [SerializeField]// Variavel privada mas pode ser modificada no unity
     private GameObject NormalLaser;
@@ -106,6 +108,13 @@ public class Player : MonoBehaviour
             case "shield":
                 powerShield = false;
             break;
+        }
+    }
+
+    public void Damage(){
+        Life--;
+        if(Life == 0){
+            Destroy(this.gameObject);
         }
     }
 }
